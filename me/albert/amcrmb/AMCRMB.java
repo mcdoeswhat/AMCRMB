@@ -95,7 +95,7 @@ public class AMCRMB extends JavaPlugin {
                     String cmd = AMCRMB.getInstance().getConfig().getString("command")
                             .replace("%player%",playerName).replace("%points%",String.valueOf(points));
                     Bukkit.dispatchCommand(Bukkit.getConsoleSender(),cmd);
-                    PlayerDonateEvent playerDonateEvent = new PlayerDonateEvent(p.getName(),points);
+                    PlayerDonateEvent playerDonateEvent = new PlayerDonateEvent(playerName,points);
                     Bukkit.getPluginManager().callEvent(playerDonateEvent);
                 });
                 if (p != null){
