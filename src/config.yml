@@ -1,0 +1,6 @@
+server:
+  sid: '00'
+  key: '00'
+command: "p give %player% %points%"
+debug: false
+

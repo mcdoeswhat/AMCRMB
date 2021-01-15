@@ -1,0 +1,8 @@
+name: AMCRMB
+version: 1.1.2
+depend: [ProtocolLib]
+main: me.albert.amcrmb.AMCRMB
+api-version: 1.13
+commands:
+  amcrmb:
+    aliases: [amc]
